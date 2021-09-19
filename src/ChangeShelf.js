@@ -31,7 +31,6 @@ class ChangeShelf extends Component {
 //Property type list for ChangeShelf Component
 ChangeShelf.propTypes = {
   book: PropTypes.object,
-  shelf: PropTypes.object,
   onMoveBook: PropTypes.func,
 };
 

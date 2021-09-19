@@ -31,7 +31,6 @@ const Book = (props) => {
 //Property type list for Book Component
 Book.propTypes = {
   book: PropTypes.object,
-  shelf: PropTypes.object,
   onMoveBook: PropTypes.func,
 };
 export default Book;

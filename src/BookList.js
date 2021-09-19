@@ -47,7 +47,7 @@ const AddBook = () => {
 };
 //Property type list for Booklist Component
 BookList.protoTypes = {
-  shelves: PropTypes.object,
+  shelves: PropTypes.array,
   book: PropTypes.array,
   onMoveBook: PropTypes.func,
 };

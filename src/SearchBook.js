@@ -76,7 +76,7 @@ const BackButton = (props) => {
 //Property type list for SearchBook Component
 SearchBook.propTypes = {
   book: PropTypes.array,
-  searchBooks: PropTypes.func,
+  searchBooks: PropTypes.array,
   onMoveBook: PropTypes.func,
   onSearch: PropTypes.func,
 };
